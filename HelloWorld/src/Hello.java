@@ -3,9 +3,10 @@ import java.util.Scanner;
 public class Hello {
 
 	public static void main(String[] args) {
-	Scanner s=new Scanner(System.in);
+		// if문
+		Scanner s=new Scanner(System.in);
 		String str=s.nextLine();
-		/*if(str.equals("a") || str.equals("A")) {
+		if(str.equals("a") || str.equals("A")) {
 			System.out.println("Apple");
 			} else if(str.equals("b") || str.equals("B")) {
 			System.out.println("Banana");
@@ -17,10 +18,7 @@ public class Hello {
 				System.out.println("모르는 이니셜");
 			}
 			System.out.println("프로그램 종료");
-		*/
-	
 		
-			
 	}
 
 }

@@ -11,25 +11,29 @@ public class Hello3 {
 		 * 			(c)	"s"이면 "매출현황" 출력
 		 * 4. (1)로 돌아간다.
 		 */
-		Scanner s = new Scanner(System.in);
-		String n = s.nextLine();
-		while(!n.equals("x")) {
-			switch(n) {
-			case "m" : 
-				System.out.println("메뉴리스트"); break;
-			case "b" :
-				System.out.println("주문"); break;
-			case "s" :
-				System.out.println("매출현황"); break;
-			
+		Scanner n = new Scanner (System.in);
+		String z = n.nextLine();
+		while (!z.equals("x")) {
+			switch (z) {
+			case ("m") :
+				System.out.println("메뉴리스트");
+				break;
+			case ("b") :
+				System.out.println("주문");
+				break;
+			case ("s") :
+				System.out.println("매출현황");
+				break;
+			default :
+				System.out.println("오류");
 			}
-			n=s.nextLine();
+			z = n.nextLine();
 		}
 		System.out.println("프로그램 종료");
-		
-		
 	}
 }
+	
+
 		
 	  
 	

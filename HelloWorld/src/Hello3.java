@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Hello3 {
 
 	public static void main(String[] args) {
-		/*
+		/*while문.
 		 * 1.사용자 입력을 받는다 (Scanner,nextLine())
 		 * 2.입력값이 "x"면 "프로그램 종료"를 출력하고 프로그램 종료.
 		 * 3.입력값이 (a) "m"이면 "메뉴리스트" 출력 (if-else if/switch)

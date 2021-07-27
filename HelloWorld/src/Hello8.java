@@ -11,13 +11,14 @@ public class Hello8 {
 		// break로 나오면, 소수가 아님.
 		// break로 나오지 않고, for문이 모두 실행됐으면 소수
 		for(int i=2; i<=10000; i++) {
-			int c=0;
-			for(int n=2; n<i; n++)
+			int n=2;
+			for(n=2; n<i; n++) {
 				if(i%n==0) {
-					c++;
+					break;
 				}
-			if(c==0) {
-				System.out.println(i);
+			}
+			if(i==n) {
+				System.out.println(n);
 			}
 		}
 	}

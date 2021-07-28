@@ -18,7 +18,7 @@ public class Hello13 {
 		int t=s.nextInt();
 		while(t!=-1) {
 			point.add(t);
-			t=s.nextInt();
+			t=s.nextInt(); //위에 int선언 해줬으니 또 선언할 필요 없음
 		} 
 		System.out.println("점수 출력");
 		for (int i=0; i<point.size(); i++) {

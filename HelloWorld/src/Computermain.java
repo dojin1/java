@@ -1,4 +1,4 @@
-//조준호
+//조준호.
 public class Computermain {
 	
 	public static void main(String[] args) {

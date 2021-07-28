@@ -10,7 +10,7 @@ public class Hello13 {
 		// 읽어들이기가 끝나면,
 		// (1) 모든 학생의 점수를 출력
 		// (2) 점수의 총합계, 평균점수를 계산해서 출력
-		
+		// 아래 루틴 공부
 		Scanner s=new Scanner(System.in);
 		ArrayList<Integer> point=new ArrayList<Integer>();
 		System.out.println("수학점수 입력, -1 입력시 종료 후 점수출력");

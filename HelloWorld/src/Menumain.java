@@ -19,6 +19,8 @@ public class Menumain {
 			menu.addPrice(p);
 			m=s1.nextLine();
 		}
+		System.out.println("입력을 종료합니다.");
+		System.out.println("메뉴와 가격을 출력합니다.");
 		menu.showMenu();
 		
 	}

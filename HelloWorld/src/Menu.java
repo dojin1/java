@@ -19,7 +19,7 @@ public class Menu {
 		for(int i=0; i<this.alName.size(); i++) {
 			System.out.println("메뉴: "+this.alName.get(i));
 			System.out.println("가격: "+this.alPrice.get(i)+"원");
-			// alName, alPrice 출력.
+			// alName, alPrice 출력..
 		}
 	}
 }
